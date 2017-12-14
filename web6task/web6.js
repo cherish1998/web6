@@ -85,28 +85,4 @@ window.onload = function () {
 	document.onmousedown = handler;
 	document.onmousemove = handler;
 	document.onmouseup = handler; 
-	
-
-
-	
-	/*
-	newdiv2.addEventListener("mousedown", function (event) {
-		dragging = true;
-		diffX = event.clientX - newdiv2.offsetLeft;
-		diffY = event.clientY - newdiv2.offsetTop;
-	}, false);
-	newdiv2.addEventListener("mousemove", function (event) {
-		if(dragging == true && newdiv2.offsetLeft >=0 && newdiv2.offsetTop >= 0){
-			newdiv2.style.left = (event.clientX - diffX) + 'px';
-			newdiv2.style.top = (event.clientY - diffY) + 'px';
-		}
-		else{
-			newdiv2.style.left = parseInt(dragging.style.left) + 1 + 'px';
-			newdiv2.style.top = parseInt(dragging.style.top) + 1 + 'px';
-		}
-	}, false);
-	newdiv2.addEventListener("mouseup", function (event) {
-		dragging = false;
-	}, false);
-	*/
 }
